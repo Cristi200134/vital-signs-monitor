@@ -1,0 +1,25 @@
+# PlatformIO / Arduino (ESP32 Firmware)
+.pio/
+.vscode/
+*.elf
+*.bin
+*.o
+build/
+*.map
+
+# MATLAB Validation
+*.asv
+*.slxc
+*.mex*
+
+# Fisiere temporare CAD / Hardware
+*.bck
+*.lck
+*.bak
+
+# Fisiere de sistem (Windows / macOS)
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.tmp
