@@ -52,7 +52,6 @@ Heartbeat detection (simplified Pan-Tompkins) was tested on the MIT-BIH database
 
 - The false-alarm rate is above the target I set for it.
 - Latency, CPU load and battery life are budget estimates, not bench measurements.
-- QRS detection was validated as a MATLAB reimplementation with the same coefficients and thresholds as the firmware, not as the compiled binary running on the chip.
 - It is a research prototype, not a certified medical device.
 
 ## Repository structure
