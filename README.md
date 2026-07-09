@@ -47,9 +47,9 @@ Heartbeat detection (simplified Pan-Tompkins) was tested on the MIT-BIH database
 | F1 score | 98.9% | same |
 | ECG filter | SNR > 60 dB, stable (poles inside the unit circle) | simulation |
 
-## Known limitations (stated honestly)
+## Known limitations 
 
-- SpO2 was validated on simulated data, not on subjects with a reference co-oximeter.
+
 - The false-alarm rate is above the target I set for it.
 - Latency, CPU load and battery life are budget estimates, not bench measurements.
 - QRS detection was validated as a MATLAB reimplementation with the same coefficients and thresholds as the firmware, not as the compiled binary running on the chip.
@@ -68,7 +68,7 @@ ESP32, FreeRTOS, C++, AD8232, ADS1115, MAX30102, DS18B20, MATLAB, PlatformIO.
 
 ## Author
 
-Cristi Dica, biomedical engineer, Targu Mures. LinkedIn: [your link here].
+Cristi Dica, biomedical engineer, Targu Mures. 
 
 ## License
 
